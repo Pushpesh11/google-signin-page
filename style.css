@@ -1,0 +1,164 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 8px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 15rem;
+    height: 31em;
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    main {
+        width: 580px;
+        margin-top: 20px;
+        border: none;
+    }
+}
+
+main .sign {
+    font-size: 1.5em;
+    margin-top: -15px;
+    color: rgb(65, 59, 59);
+}
+
+main .text {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: rgb(83, 81, 81);
+}
+
+#google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 23px;
+    font-weight: 550;
+}
+
+.blue {
+    color: #3e83f1;
+}
+
+.red {
+    color: rgb(233, 27, 27);
+}
+
+.yellow {
+    color: rgb(245, 180, 1);
+}
+
+.green {
+    color: green;
+}
+
+#tilt {
+    transform: rotate(340deg);
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle input {
+    margin-top: 80px;
+    margin: 0 auto;
+    width: 75%;
+    padding: 17px;
+    font-size: 16.5px;
+    border: 1px solid rgb(161, 157, 157);
+    border-radius: 5px;
+}
+
+.middle a {
+    color: #3e83f1;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-right: 18em;
+}
+
+button {
+    background-color: #2d77f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 25px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0c5ad8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.not {
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 15px;
+    color: rgb(114, 106, 106);
+    max-width: 480px;
+    /* text-align: center; */
+}
+
+
+.not a {
+    color: #3e83f1;
+    margin-right: 18rem;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.last a {
+    color: #3e83f1;
+    text-decoration: none;
+    font-weight: 550;
+    margin-right: 11rem;
+    font-size: 15px;
+}
+
+.last {
+    margin-top: 2rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin: 0 auto;
+    color: rgb(100, 96, 96);
+    margin-top: 20px;
+}
+
+@media(max-width:600px) {
+    footer {
+        position: relative;
+        top: 19rem;
+    }
+}
+
+footer select {
+    border: none;
+}
+
+footer .last-link {
+    margin-left: 6.5em;
+}
+
+footer a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
